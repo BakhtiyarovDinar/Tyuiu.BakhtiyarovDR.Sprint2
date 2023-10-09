@@ -19,7 +19,7 @@ namespace Tyuiu.BakhtiyarovDR.Sprint2.Task3.V5
             Console.WriteLine("- Тема: Операции сравнения                                                             -");
             Console.WriteLine("- Задание #3                                                                           -");
             Console.WriteLine("- Вариант #5                                                                           -");
-            Console.WriteLine("- Выполнил: Бахтияров Динар Русланович | ИИПБ-23-3                                     -");
+            Console.WriteLine("- Выполнил: Бахтияров Динар Русланович | АСОиУб-23-3                                     -");
             Console.WriteLine("----------------------------------------------------------------------------------------");
             Console.WriteLine("- УСЛОВИЕ:                                                                             -");
             Console.WriteLine("- Написать программу, которая вычисляет требуемое значение функции Y с использованием  -");
