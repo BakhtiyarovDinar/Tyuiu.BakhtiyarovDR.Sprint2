@@ -1,0 +1,29 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using tyuiu.cources.programming.interfaces.Sprint2;
+
+namespace Tyuiu.BakhtiyarovDR.Sprint2.Task5.V14.Lib
+{
+    public class DataService : ISprint2Task5V14
+    {
+        public string FindDayName(int value)
+        {
+            switch (value % 7)
+            {
+                case 0: return "Воскресенье";
+                case 1: return "Понедельник";
+                case 2: return "Вторник";
+                case 3: return "Среда";
+                case 4: return "Четверг";
+                case 5: return "Пятница";
+                case 6: return "Суббота";
+                default: throw new ArgumentException("Проверьте корректность данных!"); ;
+            }
+        }
+
+    }
+}
+
